@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.rockstar set ft=rockstar
+au BufNewFile,BufRead *.rock set ft=rockstar
