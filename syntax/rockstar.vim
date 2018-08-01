@@ -79,6 +79,7 @@ syn match rockstarFuncCall      "\<\(a\|and\|the\|my\|your\)\s\w\+\(\s\+\(takes\
 syn match rockstarFuncCall      "\<[A-Z]\w*\(\s\+[A-Z]\w*\)*\(\s\+\(takes\|taking\)\)\@=\>"
                                     " \@= is positive lookahead
 
+syn match rockstarComma         ","
 
 " -------------------------------------
 
@@ -92,7 +93,6 @@ hi def link rockstarPronoun     Structure
 
 
 hi def link rockstarBuiltinObj  Structure
-hi def link rockstarBoolean     Boolean
 
 hi def link rockstarString      String
 hi def link rockstarSpecial     Special
@@ -104,3 +104,4 @@ hi def link rockstarComparison  Structure
 hi def link rockstarBuiltin     Statement
 
 hi def link rockstarFuncCall    Function
+hi def link rockstarComma       Special
