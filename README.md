@@ -11,3 +11,7 @@ Install with your favorite vim plugin manager (pathogen, vundle, vim-plug, etc.)
 Any files named *.rock will be recognized.
 
 You can also set the filetype manually with `:set ft=rockstar`
+
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/seanyeh/rockstar.vim/screenshot/screen.png)
