@@ -24,7 +24,7 @@ syn keyword rockstarPronoun     it he she him her they them ze hir zie zir xe xe
 
 syn keyword rockstarBuiltinObj  mysterious
 syn keyword rockstarBuiltinObj  null nothing nowhere nobody empty gone
-syn keyword rockstarBoolean     true right yes ok false wrong no lies
+syn keyword rockstarBuiltinObj  true right yes ok false wrong no lies
 
 
 " --Literals
@@ -40,7 +40,7 @@ syn match rockstarNumber        "\<\d\+\.\d\+\>"
 " Poetic string literal
 syn match rockStarString        "\(\<says\)\@<=\s\+.\+\>"
 " Poetic number literal
-syn match rockStarString        "\(\<\(is\|was\|were\)\)\@<=\s\+.\+\>"
+syn match rockStarString        "\(\<\(is\|was\|were\)\)\@<=\s\+.\+\>" contains=ALL
 
 
 " --Keywords
