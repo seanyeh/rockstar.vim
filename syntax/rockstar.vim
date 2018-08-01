@@ -1,3 +1,9 @@
+" Vim syntax file
+" Language:     Rockstar
+" Maintainer:   Sean Yeh
+" URL:          https://github.com/seanyeh/rockstar.vim
+" Last Change:  2018-08-01
+
 if version < 600
   syntax clear
 elseif exists("b:current_syntax")
